@@ -1,5 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
+// The best advice I ever got, from my driving instructor on my first
+// lesson: aim at where you want to end up, not at what you fear hitting.
 const entry = `My driving instructor said, "Look where you want to go, not at what you're afraid of hitting," and twenty years later I still steer that way.`;
 
 // The gate allows 1-200 characters: fail loudly instead of writing junk.
